@@ -20,7 +20,10 @@ class Book
     {
         author = bookAuthor;
         title = bookTitle;
+        
+        
     }
+
 
     // Add the methods here ...
     public String getAuthor()
@@ -31,5 +34,15 @@ class Book
     public String getTitle()
     {
         return title;
+    }
+    
+    public void printAuthor()
+    {
+        System.out.println("Written by: " + author);
+    }
+    
+    public void printTitle()
+    {
+        System.out.println(title);
     }
 }
